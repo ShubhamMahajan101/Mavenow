@@ -1,0 +1,58 @@
+======================================================================================
+Swager API URL's and Response -   https://mavenow.com:8001/api-docs/#/
+======================================================================================
+git Project Url - git clone https://bitbucket.org/inwizards/mavenowapp_reactnative.git
+======================================================================================
+
+
+
+
+===========================================
+Base URL - > http://mavenow.com:8989/
+===========================================
+{ 
+    "mobileNo": params.mobileNo,
+      "countryCode": params.countryCode
+ email:  email,
+ fullName: fullname } 
+/registration/otp
+method post
+
+===========================================
+{"otp":"","mobile":""}
+/varified/otp
+method post
+===========================================
+/getAll/user
+method get
+===========================================
+/user/register
+{
+  "fullName":"Shaayam",
+ "email":"Shayaam@gmail.com",
+ "mobile":"7999555665",
+ "countryCode":"+91",
+ "userType":"1",
+ "firebaseToken":"",
+ "deviceId":"949be7cbc2b247a7",
+ "lcid":"1033"
+}
+method post
+===========================================
+/user/loginotp
+{"countryCode":"","emailMobile":""}
+method post
+===========================================
+/user/loginOtpVerify
+{
+      "countryCode": +91,
+      "emailMobile": mobile_Number,
+      "firebaseToken": "",
+      "deviceId": "dgdfgdfgdf",
+      "otp": OTP
+      }
+method post
+===========================================
+
+
+
